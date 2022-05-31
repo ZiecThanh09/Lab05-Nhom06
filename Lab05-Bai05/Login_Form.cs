@@ -37,7 +37,7 @@ namespace Lab05_Bai05
             }
             catch
             {
-                MessageBox.Show("Login Fail!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Login Failed!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

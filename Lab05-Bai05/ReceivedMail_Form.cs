@@ -64,5 +64,12 @@ namespace Lab05_Bai05
                 webBrowser.DocumentText = table.Rows[e.RowIndex]["Body"].ToString();
             }
         }
+
+        private void ReceivedMail_Form_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Hide();
+            Menu_Form menu_Form = new Menu_Form(this.Username, this.Password);
+            menu_Form.Show();
+        }
     }
 }

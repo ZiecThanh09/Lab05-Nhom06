@@ -121,7 +121,7 @@
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnLogin);
             this.Name = "Login_Form";
-            this.Text = "Form1";
+            this.Text = "Login";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Login_Form_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
